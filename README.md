@@ -3,4 +3,6 @@
 We present variational autoencoders (VAEs) with geometric latent dynamics.
 
 
-[dlmvae_method.pdf](https://github.com/user-attachments/files/17199449/dlmvae_method.pdf)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/672af49e-e0fa-41ac-91b4-78307c103d46" width="500">
+</div>
