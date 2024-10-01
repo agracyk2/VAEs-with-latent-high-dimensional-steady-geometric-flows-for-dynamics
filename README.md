@@ -1,6 +1,10 @@
 # VAEs-with-latent-high-dimensional-steady-geometric-flows-for-dynamics
 
-We present variational autoencoders (VAEs) with geometric latent dynamics.
+We present variational autoencoders (VAEs) with geometric latent dynamics. We incorporate a dynamical latent manifold into the latent space, which acts as regularizer for learning and promotes robustness in performance by up to 25% error reduction and potentially more when compared to baselines of a vanilla VAE and an extended VAE, or VAE endowed with identical architecture we propose.
+
+We reformulate the traditional ELBO loss used in the VAE framework but with a considerate choice of prior. This results in a corresponding loss with a weighting term; we investigate empirical performances with and without this weighting.
+
+We propose using a steady-state geometric flow, or a PDE on the Riemannian metric, that ensures sufficient measure, nondegeneracy, and a canonical geometry, which contribute towards ambient robustness. This choice of flow is computationally efficient, and requires only automatic differentiation of one (time) derivative and incurs low offline computational cost.
 
 
 <div align="center">
