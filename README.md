@@ -6,7 +6,6 @@ We reformulate the traditional ELBO loss used in the VAE framework but with a co
 
 We propose using a steady-state geometric flow, or a PDE on the Riemannian metric, that ensures sufficient measure, nondegeneracy, and a canonical geometry, which contribute towards ambient robustness. This choice of flow is computationally efficient, and requires only automatic differentiation of one (time) derivative and incurs low offline computational cost. This allows higher dimensional latent representations conforming to geometric properties, which in turn allow greater expressivity of function representation and incorporate more diverse initial conditions as input data.
 
-Note: the paper is complete, I am just polishing it up. It will be arXiv shortly (late October-ish 2024). Code will follow. The paper is up on my website as a pdf here: https://andrewgracyk.com/research/
 
 
 <div align="center">
